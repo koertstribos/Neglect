@@ -1,0 +1,4 @@
+https://github.com/koertstribos/PyGaze
+
+# Your modified package
+git+https://github.com/koertstribos/PyGaze@:master#egg=PyGaze
