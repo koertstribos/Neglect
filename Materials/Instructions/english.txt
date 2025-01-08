@@ -1,0 +1,4 @@
+intro_Images;Look at the cross, then look at the image.
+intro_FullHemisphere;Look at the cross, keep looking at the cross. Try to blink only when the screen is grey.
+intro_Peripheral;Look at the cross, keep looking at the cross. Try to blink only when the screen is grey.
+feedback_Slidesow;Try to keep looking at the cross and not to blink

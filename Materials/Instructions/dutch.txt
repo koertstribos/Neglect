@@ -1,0 +1,4 @@
+intro_Images;Kijk naar het kruis, bekijk daarna de foto.
+intro_FullHemisphere;Kijk naar het kruis, blijf naar het kruis kijken. Probeer alleen te knipperen als het scherm grijs is.
+intro_Peripheral;Kijk naar het kruis, blijf naar het kruis kijken. Probeer alleen te knipperen als het scherm grijs is.
+feedback_Slidesow;Probeer naar het kruis te blijven kijken en niet te knipperen.
