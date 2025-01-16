@@ -45,6 +45,7 @@ class SetupInfo(base.DataInfo):
         return os.path.join(self.folder, self.filename)
     
     #FinaliseScreenSize method
+    #TODO: make explicit check if ScreenWidthCm and ScreenDistance have been filled out properly
     #This method calculates the screen scale based on the screen width and distance
     #the screen should be about 50 degrees wide to fit the standard stimuli
     #if the screen is bigger, it is scaled down vertically
