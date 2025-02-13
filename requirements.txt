@@ -1,4 +1,8 @@
 https://github.com/koertstribos/PyGaze
 
+PIL == 8.4.0
+screeninfo == 0.8.1
+numpy == 1.21.4
+
 # Your modified package
 git+https://github.com/koertstribos/PyGaze@:master#egg=PyGaze
