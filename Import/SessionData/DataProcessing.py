@@ -2,7 +2,6 @@
 
 from numpy import mean
 import constants
-import matplotlib.pyplot as plt
 from constants import invalidationCommentText
 
 #_ExperimentResults class
@@ -64,7 +63,7 @@ class _PupilBiasResults(_ExperimentResults):
     #  Uncovering the (un) attended: Pupil light responses index persistent biases of spatial attention in neglect.
     #  Cortex, 167, 101-114.   
     #  """ 
-        #Left/rightward bias in the pupil light response (‘pupil bias score’) 
+        #Left/rightward bias in the pupil light response (â€˜pupil bias scoreâ€™) 
         #was determined per participant using the average pupil size change 
         #relative to baseline starting from 550 ms after stimulus presentation, 
         #separately for white/black and black/white displays 
