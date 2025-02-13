@@ -1,8 +1,6 @@
 #This file contains the definition of the SessionInfo class, which is a subclass of DataInfo. See DataInfo.py
 #SessionInfo concerns the data that is collected during a single session of an experiment. 
 #It contains a combination of participant and setup info, some experiment-specific info, and the results of the experiment.
-
-from email import message
 import os
 from tkinter import messagebox
 from Import.SessionData.DataInfo import DataInfo
@@ -10,7 +8,6 @@ from Import.SessionData.ParticipantInfo import ParticipantInfo
 from Import.SessionData.SetupInfo import SetupInfo
 import Import.SessionData.DataInstances as dat
 from Import.SessionData.DataProcessing import PupilBiasResultsFullHemisphere, PupilBiasResultsPeripheral, HorizontalBiasResults
-from math import atan, tau
 from Import.SessionData.DataFunctions import *
 from Import.Experiment.Experiment import PygazeExperiment
 
