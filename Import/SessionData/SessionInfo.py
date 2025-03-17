@@ -120,6 +120,9 @@ class SessionInfo(DataInfo):
         
         elif key == 'participant':
             return GetDataInstance(self, dat.ParticipantInfo)
+
+        elif key == 'EDFfilename':
+            return self.proposedName
         
         elif key == 'LANGUAGE':
             return GetDataInstance(self.participantInfo, dat.PresentationLanguage)
