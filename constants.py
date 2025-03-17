@@ -130,7 +130,7 @@ def SetConstants(ses):
     global DUMMYMODE, LOGFILENAME, LOGFILE, MOUSEVISIBLE
     # MAIN
     DUMMYMODE = TRACKERTYPE == 'dummy' or TRACKERTYPE == 'dumbdummy' or ses['DUMMYMODE'] # False for gaze contingent display, True for dummy mode (using mouse or joystick)
-    LOGFILENAME = 'default' # logfilename, without path
+    LOGFILENAME = ses['EDFfilename'] # logfilename, without path
     LOGFILE = LOGFILENAME[:] # .txt; adding path before logfilename is optional; logs responses (NOT eye movements, these are stored in an EDF file!)
 
     MOUSEVISIBLE = DUMMYMODE # mouse visibility
