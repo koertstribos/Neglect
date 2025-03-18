@@ -212,7 +212,7 @@ class ScreenInfo(Multiple):
         #if all values are known, prompt user to change screen information
         #this prompt also displays the information    
         if not needsAnswers:
-            resp = tk.messagebox.askyesno("Change screen information?", f"Screen nr {self._subDataInstances[0]} {self._subDataInstances[1]} pix, {self._subDataInstances[2]} cm @{self._subDataInstances[3]}Hz size:{self._subDataInstances[4]} cm. Change info?")
+            resp = tk.messagebox.askyesno("Change screen information?", f"Screen nr {self._subDataInstances[0]} {self._subDataInstances[1]} pix, dist: {self._subDataInstances[2]} cm @{self._subDataInstances[3]}Hz size:{self._subDataInstances[4]} cm. Change info?")
         else:
             resp = True
 
@@ -369,7 +369,7 @@ class ScreenCentimeters(Multiple):
             #first, create a root window
             root = tk.Tk()
             root.title = (f"creditcard validation")
-            #default credit card size: 8.56 cm × 5.40 cm
+            #default credit card size: 8.56 cm Ã— 5.40 cm
             #ratio: 1.58577250834 
             def Height(width):
                 return int(width / 1.58577250834)
