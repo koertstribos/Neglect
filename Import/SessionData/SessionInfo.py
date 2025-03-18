@@ -120,9 +120,10 @@ class SessionInfo(DataInfo):
         
         elif key == 'participant':
             return GetDataInstance(self, dat.ParticipantInfo)
-
+            
         elif key == 'EDFfilename':
-            return [char for char in self.proposedName if char.isalnum()]
+            res = ''.join([char for char in self.proposedName if char.isalnum()])
+            return 'NeglExp_' + res
         
         elif key == 'LANGUAGE':
             return GetDataInstance(self.participantInfo, dat.PresentationLanguage)
