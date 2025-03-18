@@ -123,7 +123,8 @@ class SessionInfo(DataInfo):
             
         elif key == 'EDFfilename':
             res = ''.join([char for char in self.proposedName if char.isalnum()])
-            return 'NeglExp_' + res
+            res = res[:7] #max 7 characters
+            return 'N' + res
         
         elif key == 'LANGUAGE':
             return GetDataInstance(self.participantInfo, dat.PresentationLanguage)
